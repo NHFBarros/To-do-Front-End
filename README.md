@@ -3,6 +3,8 @@
 Interface web para gerenciamento de tarefas (Todo List) desenvolvida com **Next.js** e **React**.
 A aplicação consome uma API backend responsável pelo armazenamento e manipulação das tarefas.
 
+Link para o back-end: https://github.com/NHFBarros/Api-NESTJS/
+
 ## Tecnologias Utilizadas
 
 * **Next.js**
