@@ -44,7 +44,6 @@ export default function Home() {
   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    // Defensive check for currentTarget being a valid HTMLFormElement
     const form = event.currentTarget as HTMLFormElement | null;
 
     const formData = form ? new FormData(form) : new FormData();
@@ -131,7 +130,6 @@ export default function Home() {
     }
   }
 
-  // NOVO: Submit do edital
   async function handleEditSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     if (!editingTodo) return;
